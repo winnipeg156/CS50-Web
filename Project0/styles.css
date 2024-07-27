@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+    
+.navbar-item {
+    margin: 10px;
+}
+
+.rounded-input {
+    margin-top: 100px;
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn {
+    margin: 10px;
+    width: 120px;
+}
