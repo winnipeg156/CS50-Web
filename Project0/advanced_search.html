@@ -10,6 +10,8 @@
 		<li class="navbar-item"><a href="index.html">Google Search</a></li>
 	    </ul>
 	</div>	
+    <h2>Advanced Search</h2>
+    <hr>
     <p class="adv-p">Find pages with...</p>
 	    <form action="https://google.com/search">
             <div class="row"> 
@@ -17,11 +19,39 @@
                     all these words:
                 </div>
                 <div class="right">
-                    <input class="adv-input" type="text" name="q">
+                    <input class="adv-input" type="text" name="as_q">
                 </div>
             </div>
-            <div>
-                <input class="advsearch-btn" type="submit" value="Advanced Search">
+            <div class="row"> 
+                <div class="left">
+                    this exact word or phrase:
+                </div>
+                <div class="right">
+                    <input class="adv-input" type="text" name="as_epq">
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="left">
+                    any of those words:
+                </div>
+                <div class="right">
+                    <input class="adv-input" type="text" name="as_oq">
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="left">
+                    none of those words:
+                </div>
+                <div class="right">
+                    <input class="adv-input" type="text" name="as_eq">
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="left">
+                </div>
+                <div class="advbtn-div">
+                    <input class="adv-btn" type="submit" value="Advanced Search">
+                </div>
             </div>
 	    </form>
     </body>
